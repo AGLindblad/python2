@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+ {% block content %}
+  <h2> QubeQalq </h2>
+
+  <form method=POST>
+      <label> Measurement: <br>
+      <input type=text name="side"></label><br>
+      <input type=submit>
+  </form>
+
+  <p> The volume of your cube  is {{cubic}} units </p>
+  
+  {% endblock content %}
+
+
